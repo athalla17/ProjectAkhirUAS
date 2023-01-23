@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 12 Jan 2023 pada 08.44
--- Versi server: 10.4.24-MariaDB
--- Versi PHP: 8.1.6
+-- Waktu pembuatan: 22 Jan 2023 pada 15.18
+-- Versi server: 10.4.17-MariaDB
+-- Versi PHP: 8.0.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `supplier material`
+-- Database: `atala`
 --
 
 -- --------------------------------------------------------
@@ -49,7 +49,8 @@ CREATE TABLE `berkas` (
 
 INSERT INTO `berkas` (`kodeberkas`, `npwp1`, `npwp2`, `ktp`, `cv`, `skrek`, `akta`, `siupm`, `skdom`, `skreg`, `pajak`, `sppajak`, `kodepengguna`) VALUES
 (1, 'KTP-NISAUTTHOHAROH.jpg', 'Gambar WhatsApp 2022-12-07 pukul 15.34.02.jpg', 'WhatsApp Image 2022-12-06 at 23.04.51.jpeg', 'Undangan Gopret.pdf', 'CV Neko Rossa Regeta.pdf', 'JURNAL MOOC PPPK UMAM.pdf', 'tes.pdf', 'nilai-mutlak.pdf', 'Cetak kartu_ujian-0720012521 (1).pdf', 'Catatan.pdf', 'Selamat datang selamat bergabung silahkan dilihat lihat dulu etalase etalase kami ya kak.pdf', 'SUP000008'),
-(2, 'Cuplikan layar_20221030_192941.png', 'Cuplikan layar_20221030_192917.png', 'Cuplikan layar_20221030_192903.png', 'POS US A3.pdf', 'JURNAL MOOC PPPK UMAM_1.pdf', 'POS US F4.pdf', 'RPP Fungsi (Pertemuan 3-6).pdf', 'MAT028202310120LEMBAR KELENGKAPAN TUGAS UAS.pdf', 'MAT028202310120LEMBAR KELENGKAPAN TUGAS UAS_1.pdf', 'kelompok 4.pdf', 'STORYLINE-STORYBOARD-FLOWCHART.pdf', 'SUP000001');
+(2, 'Cuplikan layar_20221030_192941.png', 'Cuplikan layar_20221030_192917.png', 'Cuplikan layar_20221030_192903.png', 'POS US A3.pdf', 'JURNAL MOOC PPPK UMAM_1.pdf', 'POS US F4.pdf', 'RPP Fungsi (Pertemuan 3-6).pdf', 'MAT028202310120LEMBAR KELENGKAPAN TUGAS UAS.pdf', 'MAT028202310120LEMBAR KELENGKAPAN TUGAS UAS_1.pdf', 'kelompok 4.pdf', 'STORYLINE-STORYBOARD-FLOWCHART.pdf', 'SUP000001'),
+(3, 'Cuplikan layar 2022-11-02 110538.png', 'Cuplikan layar 2022-11-30 205853.png', 'Cuplikan layar 2022-10-30 193008.png', 'translate Agustini_2017_J._Phys.__Conf._Ser._895_012148.en.id.pdf', 'MAT0282023101108. Validitas .pdf', 'Artikel Inter_Kuantitatif_Neko Rossa Regeta.pdf', 'MAT028202310197. Teknik Penskoran.pdf', 'MAT028202310118Analisis Tes Pilihan Ganda.pdf', 'MAT0282023101129. Reliabilitas.pdf', 'Penyusunan Instrumen Tes.pdf', 'non tes self-efficacy.pdf', 'SUP000003');
 
 -- --------------------------------------------------------
 
@@ -63,22 +64,6 @@ CREATE TABLE `hasil` (
   `kodeproyek` char(9) NOT NULL,
   `kodepengguna` char(9) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data untuk tabel `hasil`
---
-
-INSERT INTO `hasil` (`kodehasil`, `na`, `kodeproyek`, `kodepengguna`) VALUES
-(1, 1, 'P16115522', 'SUP000001'),
-(2, 0.425, 'P16115522', 'SUP000002'),
-(3, 0.575, 'P16115522', 'SUP000005'),
-(4, 1, 'P16115522', 'SUP000006'),
-(5, 0.20833333333333, 'P16117522', 'SUP000003'),
-(6, 0.21666666666667, 'P16117522', 'SUP000004'),
-(7, 0.13333333333333, 'P16117522', 'SUP000005'),
-(8, 0.4, 'P16117522', 'SUP000006'),
-(9, 0.82916666666667, 'P08123022', 'SUP000006'),
-(10, 0.9, 'P08123022', 'SUP000002');
 
 -- --------------------------------------------------------
 
@@ -159,51 +144,6 @@ CREATE TABLE `nilai` (
   `kodepengguna` char(9) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data untuk tabel `nilai`
---
-
-INSERT INTO `nilai` (`kodenilai`, `nilai`, `kodeindikator`, `kodekriteria`, `kodeproyek`, `kodepengguna`) VALUES
-(1, 2, 'IDK000002', 'KRPRY0001', 'P16115522', 'SUP000001'),
-(2, 1, 'IDK000006', 'KRPRY0002', 'P16115522', 'SUP000001'),
-(3, 1, 'IDK000010', 'KRPRY0004', 'P16115522', 'SUP000001'),
-(4, 1, 'IDK000001', 'KRPRY0001', 'P16115522', 'SUP000002'),
-(5, 3, 'IDK000004', 'KRPRY0002', 'P16115522', 'SUP000002'),
-(6, 2, 'IDK000011', 'KRPRY0004', 'P16115522', 'SUP000002'),
-(7, 2, 'IDK000002', 'KRPRY0001', 'P16119022', 'SUP000002'),
-(8, 2, 'IDK000005', 'KRPRY0002', 'P16119022', 'SUP000002'),
-(9, 3, 'IDK000009', 'KRPRY0003', 'P16119022', 'SUP000002'),
-(10, 1, 'IDK000010', 'KRPRY0004', 'P16119022', 'SUP000002'),
-(11, 2, 'IDK000014', 'KRPRY0005', 'P16119022', 'SUP000002'),
-(12, 1, 'IDK000001', 'KRPRY0001', 'P16115522', 'SUP000005'),
-(13, 2, 'IDK000005', 'KRPRY0002', 'P16115522', 'SUP000005'),
-(14, 1, 'IDK000010', 'KRPRY0004', 'P16115522', 'SUP000005'),
-(15, 2, 'IDK000002', 'KRPRY0001', 'P16115522', 'SUP000006'),
-(16, 1, 'IDK000006', 'KRPRY0002', 'P16115522', 'SUP000006'),
-(17, 1, 'IDK000010', 'KRPRY0004', 'P16115522', 'SUP000006'),
-(18, 3, 'IDK000001', 'KRPRY0001', 'P16117522', 'SUP000003'),
-(19, 1, 'IDK000007', 'KRPRY0003', 'P16117522', 'SUP000003'),
-(20, 2, 'IDK000011', 'KRPRY0004', 'P16117522', 'SUP000003'),
-(21, 2, 'IDK000002', 'KRPRY0001', 'P16117522', 'SUP000004'),
-(22, 2, 'IDK000008', 'KRPRY0003', 'P16117522', 'SUP000004'),
-(23, 1, 'IDK000012', 'KRPRY0004', 'P16117522', 'SUP000004'),
-(24, 1, 'IDK000003', 'KRPRY0001', 'P16117522', 'SUP000005'),
-(25, 2, 'IDK000008', 'KRPRY0003', 'P16117522', 'SUP000005'),
-(26, 3, 'IDK000010', 'KRPRY0004', 'P16117522', 'SUP000005'),
-(27, 5, 'IDK000001', 'KRPRY0001', 'P16117522', 'SUP000006'),
-(28, 3, 'IDK000012', 'KRPRY0003', 'P16117522', 'SUP000006'),
-(29, 1, 'IDK000015', 'KRPRY0004', 'P16117522', 'SUP000006'),
-(30, 2, 'IDK000003', 'KRPRY0001', 'P08123022', 'SUP000002'),
-(31, 3, 'IDK000005', 'KRPRY0002', 'P08123022', 'SUP000002'),
-(32, 2, 'IDK000009', 'KRPRY0003', 'P08123022', 'SUP000002'),
-(33, 3, 'IDK000013', 'KRPRY0004', 'P08123022', 'SUP000002'),
-(34, 2, 'IDK000017', 'KRPRY0005', 'P08123022', 'SUP000002'),
-(35, 2, 'IDK000003', 'KRPRY0001', 'P08123022', 'SUP000006'),
-(36, 2, 'IDK000006', 'KRPRY0002', 'P08123022', 'SUP000006'),
-(37, 3, 'IDK000008', 'KRPRY0003', 'P08123022', 'SUP000006'),
-(38, 4, 'IDK000014', 'KRPRY0004', 'P08123022', 'SUP000006'),
-(39, 1, 'IDK000018', 'KRPRY0005', 'P08123022', 'SUP000006');
-
 -- --------------------------------------------------------
 
 --
@@ -257,10 +197,10 @@ CREATE TABLE `proyek` (
 --
 
 INSERT INTO `proyek` (`kodeproyek`, `proyek`, `deskripsi`, `biaya`, `status`) VALUES
-('P08123022', 'Perbaikan Jalan Bandar - Gerlang Kecamatan Blado', 'Perbaikan jalan bandar gerlang yang berada di kecamatan Blado yaitu di km 21 ada beberapa lubang kecil sampai besar yang harus di perbaiki. jarak perbaikan 700 meter dari kerusakan pertama sampai terakhir.', 75000000, '1'),
-('P16115522', 'Perbaikan Jalan Bandar - Sidayu Kecamatan Bandar ', 'Perbaikan jalan bandar sidayu yang berada di kecamatan Bandar yaitu di km 4 ada beberapa lubang kecil, jarak perbaikan 220 meter dari kerusakan pertama sampai terakhir ', 12500000, '1'),
-('P16117522', 'Perbaikan Jalan Bandar - Tulis Kecamatan Bandar ', 'Perbaikan jalan bandar tulis yang berada di kecamatan Bandar yaitu di km 17 ada beberapa lubang kecil, jarak perbaikan 500 meter dari kerusakan pertama sampai terakhir ', 34500000, '1'),
-('P16119022', 'Perbaikan Jalan Blado - Genting Kecamatan Blado', 'Perbaikan jalan blado genting yang berada di kecamatan Blado yaitu di km 7 ada beberapa lubang kecil, jarak perbaikan 350 meter dari kerusakan pertama sampai terakhir ', 15000000, '1');
+('P08123022', 'Perbaikan Jalan Bandar - Gerlang Kecamatan Blado', 'Perbaikan jalan bandar gerlang yang berada di kecamatan Blado yaitu di km 21 ada beberapa lubang kecil sampai besar yang harus di perbaiki. jarak perbaikan 700 meter dari kerusakan pertama sampai terakhir. yang membutuhkan material berupa Batu Pecah 3-5cm sebanyak 3 kubik , Abu Batu 4-7 kubik, Aspal 1-4 kg, Solar 5-10 liter, dan kayu bakar 10-15kg ', 75000000, '1'),
+('P16115522', 'Perbaikan Jalan Bandar - Sidayu Kecamatan Bandar ', 'Perbaikan jalan bandar sidayu yang berada di kecamatan Bandar yaitu di km 4 ada beberapa lubang kecil, jarak perbaikan 220 meter dari kerusakan pertama sampai terakhir. yang membutuhkan material berupa Batu Pecah 1-2cm sebanyak .... , Abu Batu 4-7 kubik, Aspal 1-4 kg, Solar 5-10 liter, dan kayu bakar 5-10kg ', 12500000, '1'),
+('P16117522', 'Perbaikan Jalan Bandar - Tulis Kecamatan Bandar ', 'Perbaikan jalan bandar tulis yang berada di kecamatan Bandar yaitu di km 17 ada beberapa lubang kecil, jarak perbaikan 500 meter dari kerusakan pertama sampai terakhir. yang membutuhkan material berupa Batu Pecah 1-2cm sebanyak .... , Abu Batu 4-7 kubik, Aspal 1-4 kg, Solar 5-10 liter, dan kayu bakar 5-10kg ', 34500000, '1'),
+('P16119022', 'Perbaikan Jalan Blado - Genting Kecamatan Blado', 'Perbaikan jalan blado genting yang berada di kecamatan Blado yaitu di km 7 ada beberapa lubang kecil, jarak perbaikan 350 meter dari kerusakan pertama sampai terakhir. yang membutuhkan material berupa Batu Pecah 1-2cm sebanyak .... , Abu Batu 4-7 kubik, Aspal 1-4 kg, Solar 5-10 liter, dan kayu bakar 5-10kg ', 15000000, '1');
 
 -- --------------------------------------------------------
 
@@ -291,7 +231,8 @@ INSERT INTO `register` (`koderegister`, `waktu`, `status`, `kodepengguna`, `kode
 (9, '2022-12-08 12:28:00', '1', 'SUP000005', 'P16117522'),
 (10, '2022-12-14 18:59:15', '1', 'SUP000006', 'P08123022'),
 (11, '2022-12-14 18:59:41', '1', 'SUP000006', 'P16117522'),
-(12, '2022-12-15 12:37:15', '1', 'SUP000002', 'P08123022');
+(12, '2022-12-15 12:37:15', '1', 'SUP000002', 'P08123022'),
+(13, '2023-01-16 09:02:18', '1', 'SUP000001', 'P16119022');
 
 -- --------------------------------------------------------
 
@@ -311,23 +252,27 @@ CREATE TABLE `skema` (
 --
 
 INSERT INTO `skema` (`kodeskema`, `bobot`, `kodekriteria`, `kodeproyek`) VALUES
-(2, 25, 'KRPRY0001', 'P16117522'),
-(3, 10, 'KRPRY0003', 'P16117522'),
-(5, 5, 'KRPRY0004', 'P16117522'),
-(6, 40, 'KRPRY0001', 'P16115522'),
-(7, 45, 'KRPRY0002', 'P16115522'),
+(2, 20, 'KRPRY0001', 'P16117522'),
+(3, 30, 'KRPRY0003', 'P16117522'),
+(5, 15, 'KRPRY0004', 'P16117522'),
+(6, 20, 'KRPRY0001', 'P16115522'),
+(7, 25, 'KRPRY0002', 'P16115522'),
 (8, 15, 'KRPRY0004', 'P16115522'),
-(9, 35, 'KRPRY0001', 'P16119022'),
-(10, 15, 'KRPRY0002', 'P16119022'),
-(11, 10, 'KRPRY0003', 'P16119022'),
-(12, 5, 'KRPRY0004', 'P16119022'),
-(13, 35, 'KRPRY0005', 'P16119022'),
+(9, 20, 'KRPRY0001', 'P16119022'),
+(10, 25, 'KRPRY0002', 'P16119022'),
+(11, 30, 'KRPRY0003', 'P16119022'),
+(12, 15, 'KRPRY0004', 'P16119022'),
+(13, 10, 'KRPRY0005', 'P16119022'),
 (14, 20, 'KRPRY0001', 'P08123022'),
 (15, 25, 'KRPRY0002', 'P08123022'),
 (16, 30, 'KRPRY0003', 'P08123022'),
 (17, 15, 'KRPRY0004', 'P08123022'),
 (18, 10, 'KRPRY0005', 'P08123022'),
-(19, 15, 'KRPRY0006', 'P08123022');
+(19, 15, 'KRPRY0006', 'P08123022'),
+(20, 30, 'KRPRY0003', 'P16115522'),
+(21, 10, 'KRPRY0005', 'P16115522'),
+(22, 25, 'KRPRY0002', 'P16117522'),
+(23, 10, 'KRPRY0005', 'P16117522');
 
 --
 -- Indexes for dumped tables
@@ -395,31 +340,31 @@ ALTER TABLE `skema`
 -- AUTO_INCREMENT untuk tabel `berkas`
 --
 ALTER TABLE `berkas`
-  MODIFY `kodeberkas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `kodeberkas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT untuk tabel `hasil`
 --
 ALTER TABLE `hasil`
-  MODIFY `kodehasil` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `kodehasil` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT untuk tabel `nilai`
 --
 ALTER TABLE `nilai`
-  MODIFY `kodenilai` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `kodenilai` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT untuk tabel `register`
 --
 ALTER TABLE `register`
-  MODIFY `koderegister` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `koderegister` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT untuk tabel `skema`
 --
 ALTER TABLE `skema`
-  MODIFY `kodeskema` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `kodeskema` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
