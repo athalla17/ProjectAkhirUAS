@@ -58,9 +58,13 @@ class Proses extends BaseController{
 					$nmin = $n['min'];
 				}
 				if($k['kategori'] == 'Cost'){
-					$nn = ($nmin/$ns) * $k['bobot']/100;
+					if($ns > 0 && $nmin > 0){
+						$nn = ($nmin/$ns) * $k['bobot']/100;
+					}
 				}else{
-					$nn = ($ns/$nmax) * $k['bobot']/100;
+					if($ns > 0 && $nmax > 0){
+						$nn = ($ns/$nmax) * $k['bobot']/100;
+					}
 				}
 				$na += $nn;
 			}

@@ -1,0 +1,391 @@
+CRITICAL - 2022-11-16 00:06:10 --> Unclosed '{' on line 131 does not match ']'
+in APPPATH\Views\admin\supplier.php on line 149.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/supplier', [], true)
+ 3 APPPATH\Controllers\Supplier.php(13): view('admin/supplier', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:06:35 --> Undefined array key "kodepengguna"
+in APPPATH\Views\admin\supplier.php on line 132.
+ 1 APPPATH\Views\admin\supplier.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodepengguna"', 'APPPATH\\Views\\admin\\supplier.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\supplier.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/supplier', [], true)
+ 5 APPPATH\Controllers\Supplier.php(13): view('admin/supplier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 00:08:43 --> mysqli_sql_exception: Table 'atala.supplier' doesn't exist in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `supplie...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `supplie...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `supplie...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `supplie...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\atala\app\Controllers\Supplier.php(74): App\Models\Databasemodel->ubah('supplier', Array, Array)
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Supplier->ubahdata()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-11-16 00:11:00 --> mysqli_sql_exception: Table 'atala.supplier' doesn't exist in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `supplie...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `supplie...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `supplie...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `supplie...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(22): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\atala\app\Controllers\Supplier.php(75): App\Models\Databasemodel->ubah('supplier', Array, Array)
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Supplier->ubahdata()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-11-16 00:13:06 --> mysqli_sql_exception: Table 'atala.supplier' doesn't exist in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(6): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\atala\app\Controllers\Kriteria.php(9): App\Models\Databasemodel->ambil('supplier')
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Kriteria->index()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-16 00:13:06 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Databasemodel.php on line 6.
+ 1 APPPATH\Controllers\Kriteria.php(9): App\Models\Databasemodel->ambil('supplier')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:13:44 --> Invalid file: admin/kriteria.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/kriteria.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kriteria', [], true)
+ 3 APPPATH\Controllers\Kriteria.php(10): view('admin/kriteria', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:17:40 --> Invalid file: admin/kriteria.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/kriteria.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kriteria', [], true)
+ 3 APPPATH\Controllers\Kriteria.php(10): view('admin/kriteria', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:19:19 --> Undefined variable $kategori
+in APPPATH\Views\admin\kriteria.php on line 89.
+ 1 APPPATH\Views\admin\kriteria.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\admin\\kriteria.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kriteria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kriteria', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(10): view('admin/kriteria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 00:22:07 --> mysqli_sql_exception: Unknown column 'idkriteria' in 'field list' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kr...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kr...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kr...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kr...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\atala\app\Controllers\Kriteria.php(44): App\Models\Databasemodel->simpan('kriteria', Array)
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Kriteria->simpandata()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-11-16 00:23:40 --> mysqli_sql_exception: Unknown column 'idkriteria' in 'field list' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kr...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kr...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kr...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kr...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\atala\app\Controllers\Kriteria.php(44): App\Models\Databasemodel->simpan('kriteria', Array)
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Kriteria->simpandata()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-16 00:24:07 --> Undefined array key "alamat"
+in APPPATH\Views\admin\kriteria.php on line 121.
+ 1 APPPATH\Views\admin\kriteria.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'APPPATH\\Views\\admin\\kriteria.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kriteria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kriteria', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(10): view('admin/kriteria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:26:29 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Indikator.php(12): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:28:37 --> Invalid file: admin/indikator.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indikator.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indikator', [], true)
+ 3 APPPATH\Controllers\Indikator.php(10): view('admin/indikator', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 00:29:59 --> mysqli_sql_exception: Unknown column 'kriteria.kodeindikator' in 'on clause' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('select indikato...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select indikato...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select indikato...')
+#3 C:\xampp\htdocs\atala\app\Controllers\Indikator.php(9): CodeIgniter\Database\BaseConnection->query('select indikato...')
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Indikator->index()
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-16 00:29:59 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Indikator.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:30:14 --> Invalid file: admin/indikator.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indikator.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indikator', [], true)
+ 3 APPPATH\Controllers\Indikator.php(10): view('admin/indikator', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 00:34:38 --> mysqli_sql_exception: Unknown column 'kategori' in 'field list' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\atala\app\Controllers\Indikator.php(51): App\Models\Databasemodel->simpan('indikator', Array)
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Indikator->simpandata()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-16 00:43:15 --> Invalid file: admin/proyek.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/proyek.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/proyek', [], true)
+ 3 APPPATH\Controllers\Proyek.php(10): view('admin/proyek', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:08:36 --> Invalid file: admin/proyek.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/proyek.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/proyek', [], true)
+ 3 APPPATH\Controllers\Proyek.php(10): view('admin/proyek', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:10:15 --> Undefined variable $kota
+in APPPATH\Views\admin\proyek.php on line 103.
+ 1 APPPATH\Views\admin\proyek.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kota', 'APPPATH\\Views\\admin\\proyek.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\proyek.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/proyek', [], true)
+ 5 APPPATH\Controllers\Proyek.php(10): view('admin/proyek', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:13:13 --> Undefined array key "alamat"
+in APPPATH\Views\admin\proyek.php on line 126.
+ 1 APPPATH\Views\admin\proyek.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'APPPATH\\Views\\admin\\proyek.php', 126)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\proyek.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/proyek', [], true)
+ 5 APPPATH\Controllers\Proyek.php(10): view('admin/proyek', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:23:09 --> Invalid file: admin/skema.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/skema.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/skema', [], true)
+ 3 APPPATH\Controllers\Proyek.php(57): view('admin/skema', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->tampilskema()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:23:47 --> Undefined array key "kodekriteria"
+in APPPATH\Views\admin\skema.php on line 46.
+ 1 APPPATH\Views\admin\skema.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodekriteria"', 'APPPATH\\Views\\admin\\skema.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\skema.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/skema', [], true)
+ 5 APPPATH\Controllers\Proyek.php(57): view('admin/skema', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->tampilskema()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:24:22 --> Undefined array key "kodekriteria"
+in APPPATH\Views\admin\skema.php on line 47.
+ 1 APPPATH\Views\admin\skema.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodekriteria"', 'APPPATH\\Views\\admin\\skema.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\skema.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/skema', [], true)
+ 5 APPPATH\Controllers\Proyek.php(57): view('admin/skema', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->tampilskema()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:24:23 --> Undefined array key "kodekriteria"
+in APPPATH\Views\admin\skema.php on line 47.
+ 1 APPPATH\Views\admin\skema.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodekriteria"', 'APPPATH\\Views\\admin\\skema.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\skema.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/skema', [], true)
+ 5 APPPATH\Controllers\Proyek.php(57): view('admin/skema', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->tampilskema()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:24:43 --> Undefined array key "kodekriteria"
+in APPPATH\Views\admin\skema.php on line 47.
+ 1 APPPATH\Views\admin\skema.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodekriteria"', 'APPPATH\\Views\\admin\\skema.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\skema.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/skema', [], true)
+ 5 APPPATH\Controllers\Proyek.php(57): view('admin/skema', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->tampilskema()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:52:33 --> Undefined variable $kriteria
+in APPPATH\Views\admin\skema.php on line 56.
+ 1 APPPATH\Views\admin\skema.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kriteria', 'APPPATH\\Views\\admin\\skema.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\skema.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/skema', [], true)
+ 5 APPPATH\Controllers\Proyek.php(66): view('admin/skema', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->tampilskemaproyek()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 01:54:22 --> Undefined array key "bobot"
+in APPPATH\Views\admin\skema.php on line 60.
+ 1 APPPATH\Views\admin\skema.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bobot"', 'APPPATH\\Views\\admin\\skema.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\skema.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/skema', [], true)
+ 5 APPPATH\Controllers\Proyek.php(66): view('admin/skema', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->tampilskemaproyek()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 02:06:16 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\Proyek.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Proyek.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Proyek')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Proyek')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Proyek', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 02:06:33 --> Undefined variable $k
+in APPPATH\Controllers\Proyek.php on line 79.
+ 1 APPPATH\Controllers\Proyek.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $k', 'APPPATH\\Controllers\\Proyek.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->simpanskema()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 02:06:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Proyek.php on line 80.
+ 1 APPPATH\Controllers\Proyek.php(80): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->simpanskema()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 03:49:21 --> Undefined array key "kodeskema"
+in APPPATH\Controllers\Proyek.php on line 81.
+ 1 APPPATH\Controllers\Proyek.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeskema"', 'APPPATH\\Controllers\\Proyek.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->simpanskema()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 03:49:59 --> Undefined array key "kodeskema"
+in APPPATH\Controllers\Proyek.php on line 81.
+ 1 APPPATH\Controllers\Proyek.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeskema"', 'APPPATH\\Controllers\\Proyek.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->simpanskema()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 03:51:06 --> Undefined array key "kodeskema"
+in APPPATH\Controllers\Proyek.php on line 82.
+ 1 APPPATH\Controllers\Proyek.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeskema"', 'APPPATH\\Controllers\\Proyek.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->simpanskema()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 03:51:17 --> Undefined variable $id
+in APPPATH\Controllers\Proyek.php on line 83.
+ 1 APPPATH\Controllers\Proyek.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Proyek.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proyek->simpanskema()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proyek))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

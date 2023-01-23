@@ -1,0 +1,7 @@
+CRITICAL - 2022-12-01 01:35:20 --> Undefined constant "App\Controllers\dmyHi"
+in APPPATH\Controllers\Laporan.php on line 181.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

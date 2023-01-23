@@ -1,0 +1,784 @@
+CRITICAL - 2022-11-30 07:43:54 --> Undefined variable $db
+in APPPATH\Controllers\Penilaian.php on line 41.
+ 1 APPPATH\Controllers\Penilaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Penilaian.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->tampilhasil()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 07:44:04 --> Invalid file: supplier/hasil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('supplier/hasil.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/hasil', [], true)
+ 3 APPPATH\Controllers\Penilaian.php(43): view('supplier/hasil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->tampilhasil()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 07:47:07 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+in APPPATH\Views\supplier\penilaian.php on line 84.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/penilaian', [], true)
+ 4 APPPATH\Controllers\Penilaian.php(12): view('supplier/penilaian', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 07:48:10 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+in APPPATH\Views\supplier\penilaian.php on line 84.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/penilaian', [], true)
+ 4 APPPATH\Controllers\Penilaian.php(12): view('supplier/penilaian', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 07:48:24 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+in APPPATH\Views\supplier\hasil.php on line 87.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/hasil', [], true)
+ 4 APPPATH\Controllers\Penilaian.php(43): view('supplier/hasil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->tampilhasil()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 08:07:36 --> Undefined variable $supplier
+in APPPATH\Views\supplier\landing.php on line 30.
+ 1 APPPATH\Views\supplier\landing.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supplier', 'APPPATH\\Views\\supplier\\landing.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/landing', [], true)
+ 5 APPPATH\Controllers\Supplier.php(11): view('supplier/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 08:45:44 --> Undefined array key "kodeproyek"
+in APPPATH\Views\supplier\landing.php on line 69.
+ 1 APPPATH\Views\supplier\landing.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeproyek"', 'APPPATH\\Views\\supplier\\landing.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/landing', [], true)
+ 5 APPPATH\Controllers\Supplier.php(11): view('supplier/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 08:46:05 --> mysqli_sql_exception: Table 'atala.na' doesn't exist in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from n...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from n...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from n...')
+#3 C:\xampp\htdocs\atala\app\Views\supplier\landing.php(69): CodeIgniter\Database\BaseConnection->query('select * from n...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('supplier/landin...', Array, true)
+#7 C:\xampp\htdocs\atala\app\Controllers\Supplier.php(11): view('supplier/landin...')
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Supplier->index()
+#9 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#10 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-30 08:46:05 --> Call to a member function getResultArray() on bool
+in APPPATH\Views\supplier\landing.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/landing', [], true)
+ 4 APPPATH\Controllers\Supplier.php(11): view('supplier/landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 08:53:49 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\nilai.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 4 APPPATH\Controllers\Nilai.php(29): view('admin/nilai', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Nilai->tampildata()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 09:01:28 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Proses.php(13): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 09:02:05 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\admin\nilai.php on line 35.
+ 1 APPPATH\Views\admin\nilai.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\admin\\nilai.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 5 APPPATH\Controllers\Nilai.php(14): view('admin/nilai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Nilai->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 09:02:28 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\admin\nilai.php on line 35.
+ 1 APPPATH\Views\admin\nilai.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\admin\\nilai.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 5 APPPATH\Controllers\Nilai.php(14): view('admin/nilai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Nilai->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 09:04:10 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\nilai.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 4 APPPATH\Controllers\Nilai.php(29): view('admin/nilai', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Nilai->tampildata()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 09:04:15 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\nilai.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 4 APPPATH\Controllers\Nilai.php(29): view('admin/nilai', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Nilai->tampildata()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 09:05:53 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\nilai.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 4 APPPATH\Controllers\Nilai.php(29): view('admin/nilai', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Nilai->tampildata()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 09:14:35 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Proses.php(13): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 10:01:53 --> Undefined array key "supplier"
+in APPPATH\Controllers\Proses.php on line 38.
+ 1 APPPATH\Controllers\Proses.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "supplier"', 'APPPATH\\Controllers\\Proses.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 10:02:02 --> Undefined array key "nama"
+in APPPATH\Controllers\Proses.php on line 38.
+ 1 APPPATH\Controllers\Proses.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Controllers\\Proses.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 10:03:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc' at line 1 in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('select pengguna...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select pengguna...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select pengguna...')
+#3 C:\xampp\htdocs\atala\app\Controllers\Proses.php(79): CodeIgniter\Database\BaseConnection->query('select pengguna...')
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-30 10:03:52 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Proses.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 10:04:18 --> mysqli_sql_exception: Unknown column 'nilai.na' in 'order clause' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('select pengguna...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select pengguna...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select pengguna...')
+#3 C:\xampp\htdocs\atala\app\Controllers\Proses.php(79): CodeIgniter\Database\BaseConnection->query('select pengguna...')
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-30 10:04:18 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Proses.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 10:04:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.na from hasil join pengguna on pengguna.kodepengguna = hasil.kodepengguna wh...' at line 1 in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('select pengguna...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select pengguna...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select pengguna...')
+#3 C:\xampp\htdocs\atala\app\Controllers\Proses.php(79): CodeIgniter\Database\BaseConnection->query('select pengguna...')
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-30 10:04:54 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Proses.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 10:11:20 --> Undefined array key "kodeproyek"
+in APPPATH\Views\admin\analisa.php on line 65.
+ 1 APPPATH\Views\admin\analisa.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeproyek"', 'APPPATH\\Views\\admin\\analisa.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\analisa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/analisa', [], true)
+ 5 APPPATH\Controllers\Proses.php(83): view('admin/analisa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 10:19:04 --> Undefined array key "na"
+in APPPATH\Views\admin\analisa.php on line 80.
+ 1 APPPATH\Views\admin\analisa.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "na"', 'APPPATH\\Views\\admin\\analisa.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\analisa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/analisa', [], true)
+ 5 APPPATH\Controllers\Proses.php(29): view('admin/analisa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->tampildata()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 10:20:52 --> syntax error, unexpected variable "$s", expecting ")"
+in APPPATH\Views\admin\analisa.php on line 65.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/analisa', [], true)
+ 3 APPPATH\Controllers\Proses.php(29): view('admin/analisa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 10:25:59 --> Undefined variable $x
+in APPPATH\Controllers\Proses.php on line 28.
+ 1 APPPATH\Controllers\Proses.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $x', 'APPPATH\\Controllers\\Proses.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->tampildata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 10:27:36 --> mysqli_sql_exception: Table 'atala.na' doesn't exist in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('select pengguna...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select pengguna...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select pengguna...')
+#3 C:\xampp\htdocs\atala\app\Views\supplier\hasil.php(49): CodeIgniter\Database\BaseConnection->query('select pengguna...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('supplier/hasil', Array, true)
+#7 C:\xampp\htdocs\atala\app\Controllers\Penilaian.php(43): view('supplier/hasil', Array)
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Penilaian->tampilhasil()
+#9 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+#10 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-30 10:27:36 --> Call to a member function getRowArray() on bool
+in APPPATH\Views\supplier\hasil.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/hasil', [], true)
+ 4 APPPATH\Controllers\Penilaian.php(43): view('supplier/hasil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->tampilhasil()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 10:30:25 --> syntax error, unexpected token "if"
+in APPPATH\Views\supplier\landing.php on line 72.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/landing', [], true)
+ 3 APPPATH\Controllers\Supplier.php(11): view('supplier/landing')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 10:31:09 --> mysqli_sql_exception: Unknown column 'nilai' in 'order clause' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from h...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from h...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from h...')
+#3 C:\xampp\htdocs\atala\app\Views\supplier\landing.php(69): CodeIgniter\Database\BaseConnection->query('select * from h...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('supplier/landin...', Array, true)
+#7 C:\xampp\htdocs\atala\app\Controllers\Supplier.php(11): view('supplier/landin...')
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Supplier->index()
+#9 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#10 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-30 10:31:09 --> Call to a member function getResultArray() on bool
+in APPPATH\Views\supplier\landing.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/landing', [], true)
+ 4 APPPATH\Controllers\Supplier.php(11): view('supplier/landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 10:37:28 --> Invalid file: supplier/detailhasil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('supplier/detailhasil.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 3 APPPATH\Controllers\Penilaian.php(52): view('supplier/detailhasil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:24:51 --> Undefined variable $data
+in APPPATH\Views\supplier\detailhasil.php on line 35.
+ 1 APPPATH\Views\supplier\detailhasil.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\supplier\\detailhasil.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(52): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:25:10 --> Array to string conversion
+in APPPATH\Views\supplier\detailhasil.php on line 45.
+ 1 APPPATH\Views\supplier\detailhasil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\supplier\\detailhasil.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(52): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:26:24 --> Array to string conversion
+in APPPATH\Views\supplier\detailhasil.php on line 45.
+ 1 APPPATH\Views\supplier\detailhasil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\supplier\\detailhasil.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(52): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:27:47 --> Array to string conversion
+in APPPATH\Views\supplier\detailhasil.php on line 58.
+ 1 APPPATH\Views\supplier\detailhasil.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\supplier\\detailhasil.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(52): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:28:36 --> Undefined variable $proyek
+in APPPATH\Views\supplier\detailhasil.php on line 28.
+ 1 APPPATH\Views\supplier\detailhasil.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Views\\supplier\\detailhasil.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(51): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:28:49 --> Undefined variable $proyek
+in APPPATH\Views\supplier\detailhasil.php on line 44.
+ 1 APPPATH\Views\supplier\detailhasil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Views\\supplier\\detailhasil.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(51): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:29:07 --> Undefined variable $proyek
+in APPPATH\Views\supplier\detailhasil.php on line 28.
+ 1 APPPATH\Views\supplier\detailhasil.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Views\\supplier\\detailhasil.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(51): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:29:28 --> Array to string conversion
+in APPPATH\Views\supplier\detailhasil.php on line 44.
+ 1 APPPATH\Views\supplier\detailhasil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\supplier\\detailhasil.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(52): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:29:34 --> Undefined variable $proyek
+in APPPATH\Views\supplier\detailhasil.php on line 44.
+ 1 APPPATH\Views\supplier\detailhasil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Views\\supplier\\detailhasil.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(51): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:32:18 --> Undefined variable $proyek
+in APPPATH\Views\supplier\detailhasil.php on line 44.
+ 1 APPPATH\Views\supplier\detailhasil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Views\\supplier\\detailhasil.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\detailhasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/detailhasil', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(51): view('supplier/detailhasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:35:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Penilaian.php(50): CodeIgniter\Model->__call('pilihdata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->detailhasil('P16115522')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:47:51 --> Undefined variable $db
+in APPPATH\Views\admin\laporan.php on line 43.
+ 1 APPPATH\Views\admin\laporan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Views\\admin\\laporan.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(10): view('admin/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 12:49:04 --> Undefined variable $proyek
+in APPPATH\Views\admin\laporan.php on line 60.
+ 1 APPPATH\Views\admin\laporan.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Views\\admin\\laporan.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/laporan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(10): view('admin/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:03:41 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:03:44 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:31 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:32 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:33 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:33 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:33 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:34 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:34 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:34 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:57 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:57 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:58 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:58 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:58 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:58 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:10:58 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:11:09 --> Class "App\Libraries\Fpdf" not found
+in APPPATH\Controllers\Laporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:11:26 --> Call to undefined method App\Libraries\Fpdf\FPDF::SetWidths()
+in APPPATH\Controllers\Laporan.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:24:07 --> Object of class App\Controllers\Laporan could not be converted to string
+in APPPATH\Controllers\Laporan.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 13:39:08 --> Undefined variable $pdf
+in APPPATH\Controllers\Laporan.php on line 26.
+ 1 APPPATH\Controllers\Laporan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pdf', 'APPPATH\\Controllers\\Laporan.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 14:23:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Laporan.php(129): CodeIgniter\Model->__call('pilihdata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 14:27:22 --> Undefined array key "na"
+in APPPATH\Controllers\Laporan.php on line 161.
+ 1 APPPATH\Controllers\Laporan.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "na"', 'APPPATH\\Controllers\\Laporan.php', 161)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:34:35 --> Undefined variable $pdf
+in APPPATH\Controllers\Laporan.php on line 170.
+ 1 APPPATH\Controllers\Laporan.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pdf', 'APPPATH\\Controllers\\Laporan.php', 170)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:35:29 --> Undefined variable $pdf
+in APPPATH\Controllers\Laporan.php on line 170.
+ 1 APPPATH\Controllers\Laporan.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pdf', 'APPPATH\\Controllers\\Laporan.php', 170)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakdata('P16115522')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:46:27 --> Undefined variable $data
+in APPPATH\Views\admin\profil.php on line 32.
+ 1 APPPATH\Views\admin\profil.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\admin\\profil.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/profil', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('admin/profil')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->tampilprofil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 17:47:09 --> Undefined variable $kota
+in APPPATH\Views\admin\profil.php on line 44.
+ 1 APPPATH\Views\admin\profil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kota', 'APPPATH\\Views\\admin\\profil.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/profil', [], true)
+ 5 APPPATH\Controllers\Admin.php(20): view('admin/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->tampilprofil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 20:46:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 23.
+ 1 APPPATH\Controllers\Root.php(23): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 09:42:24 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH\Controllers\Proses.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Proses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Proses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Proses')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Proses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-30 22:42:36 --> Undefined array key "nama"
+in APPPATH\Controllers\Proses.php on line 44.
+ 1 APPPATH\Controllers\Proses.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Controllers\\Proses.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-30 22:42:59 --> mysqli_sql_exception: Unknown table 'atala.kodepengguna' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('select kodepeng...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select kodepeng...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select kodepeng...')
+#3 C:\xampp\htdocs\atala\app\Controllers\Proses.php(41): CodeIgniter\Database\BaseConnection->query('select kodepeng...')
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-30 22:42:59 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Proses.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->analisadata('P16115522')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

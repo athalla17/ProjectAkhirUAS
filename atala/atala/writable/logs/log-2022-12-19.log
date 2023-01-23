@@ -1,0 +1,48 @@
+CRITICAL - 2022-12-19 20:30:56 --> Undefined variable $kota
+in APPPATH\Views\daftar.php on line 34.
+ 1 APPPATH\Views\daftar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kota', 'APPPATH\\Views\\daftar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daftar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('daftar', [], true)
+ 5 APPPATH\Controllers\Root.php(19): view('daftar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->tampildaftar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 20:32:48 --> Undefined variable $ada
+in APPPATH\Controllers\Root.php on line 30.
+ 1 APPPATH\Controllers\Root.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ada', 'APPPATH\\Controllers\\Root.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->prosesregister()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-19 20:41:59 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\atala\app\Controllers\Root.php(65): App\Models\Databasemodel->simpan('pengguna', Array)
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Root->prosesregister()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-12-19 20:42:23 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\atala\app\Controllers\Root.php(65): App\Models\Databasemodel->simpan('pengguna', Array)
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Root->prosesregister()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}

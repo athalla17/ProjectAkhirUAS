@@ -1,0 +1,206 @@
+ERROR - 2023-01-12 10:51:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'supplier materi...', 3306, '', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\atala\app\Controllers\Pengguna.php(10): CodeIgniter\Database\BaseConnection->query('select kota fro...')
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Pengguna->index()
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\atala\app\Controllers\Pengguna.php(10): CodeIgniter\Database\BaseConnection->query('select kota fro...')
+#3 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Pengguna->index()
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-12 10:51:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Pengguna.php(10): CodeIgniter\Database\BaseConnection->query('select kota from pengguna group by kota asc')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pengguna->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-01-12 10:51:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'supplier materi...', 3306, '', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\atala\app\Controllers\Pengguna.php(10): CodeIgniter\Database\BaseConnection->query('select kota fro...')
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Pengguna->index()
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\atala\app\Controllers\Pengguna.php(10): CodeIgniter\Database\BaseConnection->query('select kota fro...')
+#3 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Pengguna->index()
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-12 10:51:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Pengguna.php(10): CodeIgniter\Database\BaseConnection->query('select kota from pengguna group by kota asc')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pengguna->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-01-12 10:51:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'supplier materi...', 3306, '', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\atala\app\Views\admin\landing.php(3): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('admin/landing', Array, true)
+#7 C:\xampp\htdocs\atala\app\Controllers\Admin.php(9): view('admin/landing')
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Admin->index()
+#9 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\atala\app\Views\admin\landing.php(3): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('admin/landing', Array, true)
+#6 C:\xampp\htdocs\atala\app\Controllers\Admin.php(9): view('admin/landing')
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Admin->index()
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-12 10:51:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\admin\landing.php(3): CodeIgniter\Database\BaseConnection->query('select * from pengguna where status = \'\' order by nama asc')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 6 APPPATH\Controllers\Admin.php(9): view('admin/landing')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-01-12 10:51:50 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'supplier materi...', 3306, '', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\atala\app\Views\admin\landing.php(3): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('admin/landing', Array, true)
+#7 C:\xampp\htdocs\atala\app\Controllers\Admin.php(9): view('admin/landing')
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Admin->index()
+#9 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\atala\app\Views\admin\landing.php(3): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('admin/landing', Array, true)
+#6 C:\xampp\htdocs\atala\app\Controllers\Admin.php(9): view('admin/landing')
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Admin->index()
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-12 10:51:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\admin\landing.php(3): CodeIgniter\Database\BaseConnection->query('select * from pengguna where status = \'\' order by nama asc')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 6 APPPATH\Controllers\Admin.php(9): view('admin/landing')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-01-12 10:51:54 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'supplier materi...', 3306, '', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\atala\app\Views\admin\landing.php(3): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('admin/landing', Array, true)
+#7 C:\xampp\htdocs\atala\app\Controllers\Admin.php(9): view('admin/landing')
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Admin->index()
+#9 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\atala\app\Views\admin\landing.php(3): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('admin/landing', Array, true)
+#6 C:\xampp\htdocs\atala\app\Controllers\Admin.php(9): view('admin/landing')
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Admin->index()
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-12 10:51:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\admin\landing.php(3): CodeIgniter\Database\BaseConnection->query('select * from pengguna where status = \'\' order by nama asc')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 6 APPPATH\Controllers\Admin.php(9): view('admin/landing')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -115,11 +115,15 @@ foreach ($data as $d) {
                         <table style="border: none;">
                             <?php
                             foreach ($kriteria as $k) {
-                                $i = $db->query("select indikator.indikator, nilai.nilai from nilai join indikator on indikator.kodeindikator = nilai.kodeindikator where nilai.kodekriteria = '".$k['kodekriteria']."' and nilai.kodeproyek = '".$d['kodeproyek']."' and nilai.kodepengguna ='".session()->get('supplier')."'")->getRowArray();
+                                $indikator = "";
+                                $cek = $db->query("select * from nilai where kodekriteria = '".$k['kodekriteria']."' and kodeproyek = '".$d['kodeproyek']."' and kodepengguna ='".session()->get('supplier')."'")->getResultArray();
+                                if(count($cek) > 0){
+                                    $indikator = $db->query("select indikator.indikator, nilai.nilai from nilai join indikator on indikator.kodeindikator = nilai.kodeindikator where nilai.kodekriteria = '".$k['kodekriteria']."' and nilai.kodeproyek = '".$d['kodeproyek']."' and nilai.kodepengguna ='".session()->get('supplier')."'")->getRowArray()['indikator'];
+                                }
                                 ?>
                                 <tr style="line-height: 36px;">
                                     <th><?php echo $k['kriteria'] ?></th>
-                                    <td>: <?php echo $i['indikator'] ?></td>
+                                    <td>: <?php echo $indikator ?></td>
                                 </tr>
                             <?php } ?>
                         </table>

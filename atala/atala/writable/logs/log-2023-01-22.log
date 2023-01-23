@@ -1,0 +1,70 @@
+ERROR - 2023-01-22 14:05:57 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'atala' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'atala', 3306, '', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\atala\app\Controllers\Root.php(100): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'atala' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\atala\app\Controllers\Root.php(100): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#3 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+#4 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+#5 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-22 14:05:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'atala'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Root.php(100): CodeIgniter\Database\BaseConnection->query('select * from pengguna where username = \'admin\' and password = \'21232f297a57a5a743894a0e4a801fc3\'')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-22 14:07:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\supplier\penilaian.php on line 122.
+ 1 APPPATH\Views\supplier\penilaian.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\supplier\\penilaian.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\penilaian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/penilaian', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(12): view('supplier/penilaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-22 14:08:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\supplier\penilaian.php on line 122.
+ 1 APPPATH\Views\supplier\penilaian.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\supplier\\penilaian.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\penilaian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/penilaian', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(12): view('supplier/penilaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-22 20:47:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\supplier\penilaian.php on line 122.
+ 1 APPPATH\Views\supplier\penilaian.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\supplier\\penilaian.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\supplier\\penilaian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('supplier/penilaian', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(12): view('supplier/penilaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

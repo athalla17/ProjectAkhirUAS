@@ -1,0 +1,704 @@
+CRITICAL - 2022-11-15 01:57:13 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Root.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-15 01:57:55 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Root.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-15 01:58:09 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Root.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-15 01:58:10 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Root.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-15 01:58:10 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Root.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-15 01:58:10 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Root.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-15 01:58:10 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Root.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-15 01:58:11 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Root.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-15 07:09:31 --> Invalid file: sanksi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sanksi.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksi', [], true)
+ 3 APPPATH\Controllers\Sanksi.php(10): view('sanksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:36:48 --> Invalid file: sanksibaru.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sanksibaru.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksibaru', [], true)
+ 3 APPPATH\Controllers\Sanksi.php(17): view('sanksibaru')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->tambahdata()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:51:33 --> Invalid file: sanksidetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sanksidetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksidetail', [], true)
+ 3 APPPATH\Controllers\Sanksi.php(34): view('sanksidetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->detaildata('2')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:52:36 --> Undefined array key "idsanksi"
+in APPPATH\Views\sanksidetail.php on line 31.
+ 1 APPPATH\Views\sanksidetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsanksi"', 'APPPATH\\Views\\sanksidetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sanksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksidetail', [], true)
+ 5 APPPATH\Controllers\Sanksi.php(34): view('sanksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->detaildata('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:53:57 --> Undefined array key "idsanksi"
+in APPPATH\Views\sanksidetail.php on line 31.
+ 1 APPPATH\Views\sanksidetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsanksi"', 'APPPATH\\Views\\sanksidetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sanksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksidetail', [], true)
+ 5 APPPATH\Controllers\Sanksi.php(34): view('sanksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->detaildata('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:54:06 --> Undefined array key "idsanksi"
+in APPPATH\Views\sanksidetail.php on line 31.
+ 1 APPPATH\Views\sanksidetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsanksi"', 'APPPATH\\Views\\sanksidetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sanksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksidetail', [], true)
+ 5 APPPATH\Controllers\Sanksi.php(34): view('sanksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->detaildata('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:54:29 --> Undefined array key "sanksi"
+in APPPATH\Views\sanksidetail.php on line 35.
+ 1 APPPATH\Views\sanksidetail.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sanksi"', 'APPPATH\\Views\\sanksidetail.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sanksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksidetail', [], true)
+ 5 APPPATH\Controllers\Sanksi.php(34): view('sanksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->detaildata('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:54:41 --> Undefined array key "batas"
+in APPPATH\Views\sanksidetail.php on line 39.
+ 1 APPPATH\Views\sanksidetail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batas"', 'APPPATH\\Views\\sanksidetail.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sanksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksidetail', [], true)
+ 5 APPPATH\Controllers\Sanksi.php(34): view('sanksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->detaildata('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:54:48 --> Undefined array key "batas"
+in APPPATH\Views\sanksidetail.php on line 39.
+ 1 APPPATH\Views\sanksidetail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batas"', 'APPPATH\\Views\\sanksidetail.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sanksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksidetail', [], true)
+ 5 APPPATH\Controllers\Sanksi.php(34): view('sanksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->detaildata('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:57:23 --> Invalid file: siswa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa', [], true)
+ 3 APPPATH\Controllers\Siswa.php(10): view('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 07:58:31 --> Invalid file: siswa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa', [], true)
+ 3 APPPATH\Controllers\Siswa.php(10): view('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:01:19 --> Invalid file: siswabaru.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswabaru.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswabaru', [], true)
+ 3 APPPATH\Controllers\Siswa.php(17): view('siswabaru')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->tambahdata()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:14:24 --> Invalid file: siswadetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswadetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswadetail', [], true)
+ 3 APPPATH\Controllers\Siswa.php(40): view('siswadetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->detaildata('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:14:43 --> Undefined variable $kelas
+in APPPATH\Views\siswadetail.php on line 51.
+ 1 APPPATH\Views\siswadetail.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\siswadetail.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siswadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswadetail', [], true)
+ 5 APPPATH\Controllers\Siswa.php(40): view('siswadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->detaildata('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:31:17 --> Undefined array key "idsiswa"
+in APPPATH\Views\siswadetail.php on line 31.
+ 1 APPPATH\Views\siswadetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsiswa"', 'APPPATH\\Views\\siswadetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siswadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswadetail', [], true)
+ 5 APPPATH\Controllers\Siswa.php(40): view('siswadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->detaildata('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:31:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\siswadetail.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswadetail', [], true)
+ 4 APPPATH\Controllers\Siswa.php(40): view('siswadetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->detaildata('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:31:50 --> Undefined variable $kelas
+in APPPATH\Views\siswadetail.php on line 52.
+ 1 APPPATH\Views\siswadetail.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\siswadetail.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siswadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswadetail', [], true)
+ 5 APPPATH\Controllers\Siswa.php(40): view('siswadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->detaildata('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:32:11 --> Undefined variable $kelas
+in APPPATH\Views\siswadetail.php on line 52.
+ 1 APPPATH\Views\siswadetail.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\siswadetail.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\siswadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswadetail', [], true)
+ 5 APPPATH\Controllers\Siswa.php(40): view('siswadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->detaildata('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:33:38 --> Undefined array key 0
+in APPPATH\Views\sanksidetail.php on line 31.
+ 1 APPPATH\Views\sanksidetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\sanksidetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sanksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('sanksidetail', [], true)
+ 5 APPPATH\Controllers\Sanksi.php(34): view('sanksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sanksi->detaildata('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sanksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:35:17 --> Class "App\Models\Kriteriamodel" not found
+in APPPATH\Controllers\Kriteria.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:35:37 --> Invalid file: kriteria.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kriteria.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kriteria', [], true)
+ 3 APPPATH\Controllers\Kriteria.php(10): view('kriteria', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-15 08:37:29 --> mysqli_sql_exception: Unknown column 'kelas' in 'field list' in C:\xampp\htdocs\point\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\point\system\Database\MySQLi\Connection.php(292): mysqli->query('select kelas fr...', 0)
+#1 C:\xampp\htdocs\point\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select kelas fr...')
+#2 C:\xampp\htdocs\point\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select kelas fr...')
+#3 C:\xampp\htdocs\point\app\Controllers\Kriteria.php(18): CodeIgniter\Database\BaseConnection->query('select kelas fr...')
+#4 C:\xampp\htdocs\point\system\CodeIgniter.php(927): App\Controllers\Kriteria->tambahdata()
+#5 C:\xampp\htdocs\point\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#6 C:\xampp\htdocs\point\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\point\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\point\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-15 08:37:29 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Kriteria.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->tambahdata()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-15 08:37:42 --> mysqli_sql_exception: Unknown column 'kelas' in 'field list' in C:\xampp\htdocs\point\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\point\system\Database\MySQLi\Connection.php(292): mysqli->query('select kelas fr...', 0)
+#1 C:\xampp\htdocs\point\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select kelas fr...')
+#2 C:\xampp\htdocs\point\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select kelas fr...')
+#3 C:\xampp\htdocs\point\app\Controllers\Kriteria.php(18): CodeIgniter\Database\BaseConnection->query('select kelas fr...')
+#4 C:\xampp\htdocs\point\system\CodeIgniter.php(927): App\Controllers\Kriteria->tambahdata()
+#5 C:\xampp\htdocs\point\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#6 C:\xampp\htdocs\point\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\point\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\point\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-15 08:37:42 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Kriteria.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->tambahdata()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:38:20 --> Undefined variable $kelas
+in APPPATH\Views\kriteriabaru.php on line 51.
+ 1 APPPATH\Views\kriteriabaru.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\kriteriabaru.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kriteriabaru.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kriteriabaru', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(17): view('kriteriabaru')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->tambahdata()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:38:32 --> Undefined variable $kelas
+in APPPATH\Views\kriteriabaru.php on line 51.
+ 1 APPPATH\Views\kriteriabaru.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\kriteriabaru.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kriteriabaru.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kriteriabaru', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(17): view('kriteriabaru')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->tambahdata()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-15 08:40:16 --> mysqli_sql_exception: Unknown column 'poin' in 'field list' in C:\xampp\htdocs\point\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\point\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kr...', 0)
+#1 C:\xampp\htdocs\point\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kr...')
+#2 C:\xampp\htdocs\point\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kr...')
+#3 C:\xampp\htdocs\point\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kr...', Array, false)
+#4 C:\xampp\htdocs\point\app\Models\Databasemodel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\point\app\Controllers\Kriteria.php(27): App\Models\Databasemodel->simpan('kriteria', Array)
+#6 C:\xampp\htdocs\point\system\CodeIgniter.php(927): App\Controllers\Kriteria->simpandata()
+#7 C:\xampp\htdocs\point\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#8 C:\xampp\htdocs\point\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\point\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\point\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-11-15 08:41:31 --> mysqli_sql_exception: Column 'kriteria' cannot be null in C:\xampp\htdocs\point\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\point\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kr...', 0)
+#1 C:\xampp\htdocs\point\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kr...')
+#2 C:\xampp\htdocs\point\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kr...')
+#3 C:\xampp\htdocs\point\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kr...', Array, false)
+#4 C:\xampp\htdocs\point\app\Models\Databasemodel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\point\app\Controllers\Kriteria.php(28): App\Models\Databasemodel->simpan('kriteria', Array)
+#6 C:\xampp\htdocs\point\system\CodeIgniter.php(927): App\Controllers\Kriteria->simpandata()
+#7 C:\xampp\htdocs\point\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#8 C:\xampp\htdocs\point\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\point\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\point\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-15 08:42:17 --> Invalid file: kriteriadetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kriteriadetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kriteriadetail', [], true)
+ 3 APPPATH\Controllers\Kriteria.php(35): view('kriteriadetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kriteria->detaildata('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:44:45 --> Class "App\Models\Indikatormodel" not found
+in APPPATH\Controllers\Indikator.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:45:07 --> Invalid file: indikator.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('indikator.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('indikator', [], true)
+ 3 APPPATH\Controllers\Indikator.php(10): view('indikator', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:46:32 --> Invalid file: indikator.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('indikator.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('indikator', [], true)
+ 3 APPPATH\Controllers\Indikator.php(10): view('indikator', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:50:04 --> Invalid file: indikator.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('indikator.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('indikator', [], true)
+ 3 APPPATH\Controllers\Indikator.php(10): view('indikator', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:54:49 --> Invalid file: indikatorbaru.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('indikatorbaru.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('indikatorbaru', [], true)
+ 3 APPPATH\Controllers\Indikator.php(19): view('indikatorbaru', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->tambahdata()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:55:16 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+in APPPATH\Views\indikatorbaru.php on line 46.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('indikatorbaru', [], true)
+ 4 APPPATH\Controllers\Indikator.php(19): view('indikatorbaru', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->tambahdata()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 08:59:27 --> Invalid file: indikatordetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('indikatordetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('indikatordetail', [], true)
+ 3 APPPATH\Controllers\Indikator.php(38): view('indikatordetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indikator->detaildata('8')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indikator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 09:05:37 --> Invalid file: proses.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('proses.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('proses', [], true)
+ 3 APPPATH\Controllers\Proses.php(12): view('proses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 09:06:47 --> Invalid file: proses.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('proses.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('proses', [], true)
+ 3 APPPATH\Controllers\Proses.php(11): view('proses', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Proses->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proses))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:04:32 --> Invalid file: situs/landing.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('situs/landing.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('situs/landing', [], true)
+ 3 APPPATH\Controllers\Root.php(13): view('situs/landing')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:33:52 --> Invalid file: situs/landing#contact.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('situs/landing#contact.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('situs/landing#contact', [], true)
+ 3 APPPATH\Controllers\Root.php(13): view('situs/landing#contact')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:42:13 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:42:14 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:42:14 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:42:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:42:30 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:42:31 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:42:31 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:42:31 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:42:31 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:44:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Root.php on line 22.
+ 1 APPPATH\Controllers\Root.php(22): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 20:47:54 --> Undefined variable $dbm
+in APPPATH\Controllers\Root.php on line 21.
+ 1 APPPATH\Controllers\Root.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dbm', 'APPPATH\\Controllers\\Root.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 21:00:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+in APPPATH\Controllers\Root.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->proseslogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 21:02:28 --> Invalid file: admin/landing.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/landing.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 3 APPPATH\Controllers\Admin.php(9): view('admin/landing')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 22:21:53 --> Invalid file: bagianfooter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bagianfooter.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('bagianfooter', [], true)
+ 3 APPPATH\Views\admin\landing.php(32): view('bagianfooter')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 7 APPPATH\Controllers\Admin.php(9): view('admin/landing')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-15 22:26:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'pengguna = 'USER00000'' at line 1 in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from p...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select * from p...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select * from p...')
+#3 C:\xampp\htdocs\atala\app\Views\admin\bagiannavigasi.php(3): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('admin/bagiannav...', Array, true)
+#7 C:\xampp\htdocs\atala\app\Views\admin\landing.php(8): view('admin/bagiannav...')
+#8 C:\xampp\htdocs\atala\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\atala\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\xampp\htdocs\atala\system\Common.php(1134): CodeIgniter\View\View->render('admin/landing', Array, true)
+#11 C:\xampp\htdocs\atala\app\Controllers\Admin.php(9): view('admin/landing')
+#12 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Admin->index()
+#13 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#14 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#17 {main}
+CRITICAL - 2022-11-15 22:26:35 --> Call to a member function getRowArray() on bool
+in APPPATH\Views\admin\bagiannavigasi.php on line 3.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/bagiannavigasi', [], true)
+ 4 APPPATH\Views\admin\landing.php(8): view('admin/bagiannavigasi')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 8 APPPATH\Controllers\Admin.php(9): view('admin/landing')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-15 22:30:30 --> mysqli_sql_exception: Table 'atala.supplier' doesn't exist in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(6): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\atala\app\Controllers\Supplier.php(9): App\Models\Databasemodel->ambil('supplier')
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Supplier->index()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-15 22:30:30 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Databasemodel.php on line 6.
+ 1 APPPATH\Controllers\Supplier.php(9): App\Models\Databasemodel->ambil('supplier')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-15 22:31:44 --> mysqli_sql_exception: Table 'atala.supplier' doesn't exist in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\atala\app\Controllers\Supplier.php(9): App\Models\Databasemodel->pilihsemua('supplier', Array)
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Supplier->index()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-15 22:31:44 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Databasemodel.php on line 14.
+ 1 APPPATH\Controllers\Supplier.php(9): App\Models\Databasemodel->pilihsemua('supplier', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 22:31:52 --> Invalid file: admin/supplier.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/supplier.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/supplier', [], true)
+ 3 APPPATH\Controllers\Supplier.php(10): view('admin/supplier', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 22:32:25 --> Invalid file: admin/supplier.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/supplier.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/supplier', [], true)
+ 3 APPPATH\Controllers\Supplier.php(10): view('admin/supplier', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Supplier->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 23:02:07 --> syntax error, unexpected identifier "getResultArray"
+in APPPATH\Controllers\Supplier.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Supplier.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Supplier')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Supplier')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Supplier', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-15 23:08:05 --> mysqli_sql_exception: Unknown column 'idsupplier' in 'field list' in C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\atala\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\atala\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\atala\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\atala\app\Models\Databasemodel.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\atala\app\Controllers\Supplier.php(60): App\Models\Databasemodel->simpan('pengguna', Array)
+#6 C:\xampp\htdocs\atala\system\CodeIgniter.php(927): App\Controllers\Supplier->simpandata()
+#7 C:\xampp\htdocs\atala\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\atala\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\atala\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\atala\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
