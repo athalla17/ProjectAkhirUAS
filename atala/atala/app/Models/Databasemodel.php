@@ -2,7 +2,7 @@
 namespace App\Models;
 use CodeIgniter\Model;
 class Databasemodel extends Model{
-	public function ambil($tabel){
+	public function ambil($tabel){ 
 		return $this->db->table($tabel)->get()->getResultArray();
 	}
 
